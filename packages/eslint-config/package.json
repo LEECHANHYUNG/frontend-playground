@@ -1,0 +1,21 @@
+{
+  "name": "@frontend-playground/eslint-config",
+  "version": "0.0.0",
+  "private": true,
+  "main": "index.js",
+  "type": "module",
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "@eslint/js": "^9.24.0",
+    "@typescript-eslint/eslint-plugin": "^7.1.1",
+    "@typescript-eslint/parser": "^7.1.1",
+    "eslint": "^9.24.0",
+    "globals": "^14.0.0"
+  },
+  "peerDependencies": {
+    "eslint": "^9.24.0",
+    "typescript": "^5.0.0"
+  }
+}

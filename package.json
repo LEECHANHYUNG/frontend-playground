@@ -1,0 +1,20 @@
+{
+  "name": "frontend-playground",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "turbo": "^1.12.5",
+    "typescript": "^5.3.3"
+  },
+  "packageManager": "pnpm@8.15.4",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
