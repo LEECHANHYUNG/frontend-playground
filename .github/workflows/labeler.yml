@@ -1,0 +1,16 @@
+name: "Pull Request Labeler"
+
+on:
+  pull_request_target: # PR 생성, 재오픈, 커밋 시 작동
+
+jobs:
+  labeler:
+    permissions:
+      contents: read
+      pull-requests: write
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/labeler@v5
+        with:
+          repo-token: "${{ secrets.GITHUB_TOKEN }}"
+          sync-labels: true # PR에서 변경된 파일이 없으면 라벨 제거
