@@ -13,4 +13,4 @@ jobs:
       - uses: actions/labeler@v5
         with:
           repo-token: "${{ secrets.GITHUB_TOKEN }}"
-          sync-labels: true # PR에서 변경된 파일이 없으면 라벨 제거
+          sync-labels: true
